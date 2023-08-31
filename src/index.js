@@ -1,4 +1,5 @@
-// Detecta a posição da página e mostra/oculta o header
+AOS.init();
+
 let lastScroll = 0;
 const scrollHeader = document.querySelector(".scroll-header");
 
