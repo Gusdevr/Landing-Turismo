@@ -14,13 +14,15 @@ window.addEventListener("scroll", () => {
     }
 
     if (currentScroll <= 0) {
-        scrollHeader.style.backgroundColor = "rgba(0, 0, 0, 0)";
+        scrollHeader.style.backgroundColor = "#1c1e2c";
     } else {
-        scrollHeader.style.backgroundColor = "#ede2bb";
+        scrollHeader.style.backgroundColor = "#1c1e2c";
     }
 
     lastScroll = currentScroll;
 });
+
+
 
 
 
