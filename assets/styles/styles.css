@@ -30,7 +30,11 @@ body {
     align-items: center;
     z-index: 1000;
     transition: background-color 1.3s ease;
+
+    
 }
+
+
 
 .scroll-header.show {
 
@@ -46,6 +50,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
 
 .scroll-header nav ul li {
     margin-right: 20px;
@@ -76,11 +82,14 @@ nav ul a li {
 
 
 .logo-header img {
-   
+    display: flex;
     max-width: 100%;
     height: auto;
 
 }
+
+
+
 
 .icon-social {
     display: flex;
@@ -190,16 +199,23 @@ nav ul a li {
 
 
 #about-description h2 {
-   
+    
     font-size: 38px;
     margin-bottom: 24px;
+
+    
+  
+    
 }
 
+
+
 p {
-    
+    text-align: justify;
     margin-bottom: 14px;
     line-height: 150%;
     font-size: 18px;
+    max-width: 350px;
     
 }
 
@@ -323,8 +339,11 @@ p {
   .btn-whatsap img {
     max-width: 74px;
     transition: transform 0.4s;
-   
+
+
   }
+
+
 
   .btn-whatsap img:hover {
     transform: scale(1.1);

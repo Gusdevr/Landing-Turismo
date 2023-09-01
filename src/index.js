@@ -1,3 +1,4 @@
+
 AOS.init();
 
 let lastScroll = 0;
@@ -20,6 +21,10 @@ window.addEventListener("scroll", () => {
 
     lastScroll = currentScroll;
 });
+
+
+
+
 
 
 
