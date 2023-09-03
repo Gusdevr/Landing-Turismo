@@ -9,7 +9,7 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    
+    font-family: "Helvetica Neue", sans-serif;
 
 }
 
@@ -147,13 +147,14 @@ nav ul a li {
    margin-top: 400px;
    color: #fff;
    flex-direction: column;
-   line-height: 55px;
+   line-height: 85px;
+ 
 
 }
 
 .art-banner h1 {
     font-size: 65px;
-    
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 .art-banner h3 {
@@ -161,8 +162,10 @@ nav ul a li {
 }
 
 .art-banner h5 {
-    font-size: 35px;
+    font-size: 55px;
     margin-bottom: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
 }
 
 
@@ -347,7 +350,6 @@ p {
     flex-direction: row;
     max-width: 300px;
     justify-content: space-around;
-    
     display: inline-block;
     
   }
@@ -372,11 +374,21 @@ p {
         display: flex;
        flex-direction: column;
        margin-right: 100px;
-       width: 200px;
-       margin-right: 50px;
+       width: 100vw;
+       margin-right: 150px;
     
     }
 }
+
+@media screen and (max-width:768px) {
+    .section-footer .log-footer{
+      flex-direction: column;
+      width: 100vw;
+      margin-left: 150px;
+    
+    }
+}
+
 
 
 
@@ -470,7 +482,7 @@ p {
     .logo-header img {
 position: absolute;
 max-width: 100px;
-margin-left: 100px;
+margin-left: 120px;
 
 
 
